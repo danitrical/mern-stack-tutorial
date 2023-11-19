@@ -1,17 +1,18 @@
 import React from 'react'
 import './Product.css'
-const Product = ({ horizontal = false }) => {
+const Product = ({ data, horizontal = false }) => {
 
+  const { title, price, image} = data;
   const verticalProduct = () => (
     <div className='product'>
       <img
-        src="https://m.media-amazon.com/images/I/51dRGPgTtvL._AC_UF226,226_FMjpg_.png"
+        src={image}
         alt="product__image"
         className='productImage'
       />
       <div className="productInfo">
-        <span className='productInfoTitle'>Title</span>
-        <span className='productInfoPrice'>$ 15.00</span>
+        <span className='productInfoTitle'>{title}</span>
+        <span className='productInfoPrice'>$ {price}</span>
       </div>
       <button className='addToCartButton'>
         Add to Cart
@@ -23,15 +24,15 @@ const Product = ({ horizontal = false }) => {
     <div className="productH">
       <div className="productInfoAndButton">
       <div className="productInfoH">
-        <span className='productInfoTitle'>Title</span>
-        <span className='productInfoPrice'>$ 15.00</span>
+        <span className='productInfoTitle'>{ title }</span>
+        <span className='productInfoPrice'>$ { price }</span>
       </div>
       <button className='addToCartButton'>
         Add to Cart
       </button>
       </div>
       <img
-        src="https://m.media-amazon.com/images/I/51dRGPgTtvL._AC_UF226,226_FMjpg_.png"
+        src={ image }
         alt="product__image"
         className='productImageH'
       />

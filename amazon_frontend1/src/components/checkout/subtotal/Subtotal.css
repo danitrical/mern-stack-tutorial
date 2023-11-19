@@ -1,0 +1,29 @@
+.proceedToPaymentButton {
+  background-color: rgb(11, 76, 68);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 10px;
+}
+
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  padding: 20px;
+}
+
+.subtotalGift {
+  display: flex;
+  align-items: center;
+}
+
+.subtotalGift > input {
+  margin-right: 5px;
+}

@@ -4,3 +4,7 @@
   margin: 20px;
   z-index: 2;
 }
+
+.verticalList {
+  flex-direction: column;
+}
