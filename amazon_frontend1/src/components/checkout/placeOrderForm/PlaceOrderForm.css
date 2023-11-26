@@ -1,0 +1,45 @@
+.placeOrderForm > form > input {
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 98%;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.placeOrderForm > form {
+  margin-top: 10px;
+}
+.placeOrderForm > form >  select {
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  width: 100%;
+}
+.placeOrderForm > form >  label {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.placeOrderForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  background-color: #f3f3f3;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.placeOrderForm > h3 {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}

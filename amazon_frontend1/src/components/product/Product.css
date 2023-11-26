@@ -48,6 +48,15 @@
   width: 100%;
   margin-top: 20px;
 }
+.removeCartButton {
+  background-color: rgb(146, 1, 1);
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  width: 100%;
+  margin-top: 20px;
+}
 
 .productH {
   display: flex;
